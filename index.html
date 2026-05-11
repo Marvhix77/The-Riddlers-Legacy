@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Riddler's Legacy</title>
+  <link rel="icon" href="assets/icons/favicon.ico.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="game-container">
+    <header class="game-header">
+      <h1>The Riddler's Legacy</h1>
+      <p>Answer the riddles. Climb the legacy ladder. One wrong answer ends the game.</p>
+    </header>
+
+    <main class="game-board">
+      <section class="question-section" aria-label="Riddle question area">
+        <p id="questionLabel">Loading question...</p>
+        <p id="question">Preparing The Riddler's challenge.</p>
+        <div id="options" aria-label="Answer options"></div>
+        <p id="result" aria-live="polite"></p>
+        <div id="animationBox">Answer a riddle to reveal your legacy.</div>
+        <button id="restartButton" type="button">Restart Game</button>
+      </section>
+
+      <aside class="reward-section" aria-label="Reward ladder">
+        <div class="reward-header">
+          <h2>Legacy Ladder</h2>
+          <button id="toggleRewardsButton" type="button">Hide</button>
+        </div>
+        <ul id="rewardList"></ul>
+      </aside>
+    </main>
+  </div>
+
+  <script src="data/questions.js"></script>
+  <script src="data/rewards.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
