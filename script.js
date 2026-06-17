@@ -15,9 +15,12 @@ let currentQuestionIndex = 0;
 let currentReward = "₦0";
 let gameOver = false;
 let answerLocked = false;
+let nextQuestionTimer = null;
 
 // Starts a fresh game session.
 function startGame() {
+  clearNextQuestionTimer();
+
   currentQuestionIndex = 0;
   currentReward = "₦0";
   gameOver = false;
@@ -28,7 +31,7 @@ function startGame() {
   resultElement.textContent = "";
   resultElement.className = "";
   hideAnimation();
-  restartButton.style.display = "none";
+  restartButton.style.display = "inline-block";
 
   if (selectedQuestions.length !== rewards.length) {
     endGame("error", "The number of selected questions must match the reward ladder.");
@@ -123,11 +126,11 @@ function handleCorrectAnswer() {
   currentQuestionIndex++;
 
   if (currentQuestionIndex === selectedQuestions.length) {
-    setTimeout(function () {
+    nextQuestionTimer = setTimeout(function () {
       endGame("won");
     }, NEXT_QUESTION_DELAY);
   } else {
-    setTimeout(function () {
+    nextQuestionTimer = setTimeout(function () {
       displayQuestion();
       updateRewardLadder();
     }, NEXT_QUESTION_DELAY);
@@ -243,9 +246,17 @@ function endGame(status, customMessage) {
 
 // Clears the old game and starts again with new random questions.
 function restartGame() {
+  clearNextQuestionTimer();
   resultElement.textContent = "";
   hideAnimation();
   startGame();
+}
+
+function clearNextQuestionTimer() {
+  if (nextQuestionTimer) {
+    clearTimeout(nextQuestionTimer);
+    nextQuestionTimer = null;
+  }
 }
 
 function getDifficultyName(index) {
