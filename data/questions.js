@@ -279,14 +279,14 @@ const questions = {
             answer: "Fire"
         },
         {
-            question: "I have no mouth, but I can roar. I have no feet, but I can spread. What am I?",
-            options: ["Fire", "Smoke", "Music", "Rain"],
-            answer: "Fire"
+            question: "I can be hidden or obvious, changes you when revealed. What am I?",
+            options: ["Ghost", "Enemy", "Fear", "Betrayal"],
+            answer: "Betrayal"
         },
         {
-            question: "I am born from a spark and grow with air. Keep me close, but handle me with care. What am I?",
-            options: ["Fire", "Lightning", "A candle", "A storm"],
-            answer: "Fire"
+            question: "I Light as feather, no one can hold it long. What am I?",
+            options: ["Secret", "Silence", "Feather", "Breath"],
+            answer: "Breath"
         },
         {
             question: "I know every move and thought, with you from birth to death. What am I?",
