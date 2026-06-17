@@ -2,7 +2,7 @@ const questions = {
     easy: [
         {
             question: "What has keys but can't open locks?",
-            options: ["A piano", "A map", "A clock", "A door"],
+            options: ["A Clock", "A map", "A piano", "A door"],
             answer: "A piano"
         },
         {
@@ -12,12 +12,12 @@ const questions = {
         },
         {
             question: "What has hands but cannot clap?",
-            options: ["A clock", "A statue", "A robot", "A tree"],
+            options: ["A toy", "A statue", "A robot", "A clock"],
             answer: "A clock"
         },
         {
             question: "What has a face and two hands but no arms or legs?",
-            options: ["A clock", "A doll", "A mirror", "A painting"],
+            options: ["A doll", "A clock", "A mirror", "A painting"],
             answer: "A clock"
         },
         {
@@ -27,17 +27,17 @@ const questions = {
         },
         {
             question: "What can travel around the world while staying in one corner?",
-            options: ["A stamp", "A plane", "A coin", "A shadow"],
+            options: ["A coin", "A plane", "A stamp", "A shadow"],
             answer: "A stamp"
         },
         {
             question: "What has a neck but no head?",
-            options: ["A bottle", "A shirt", "A guitar", "A snake"],
+            options: ["A snake", "A shirt", "A guitar", "A bottle"],
             answer: "A bottle"
         },
         {
             question: "What gets bigger the more you take away from it?",
-            options: ["A hole", "A mountain", "A balloon", "A shadow"],
+            options: ["A mountain", "A hole", "A balloon", "A shadow"],
             answer: "A hole"
         },
         {
@@ -47,12 +47,12 @@ const questions = {
         },
         {
             question: "What can you catch but not throw?",
-            options: ["A cold", "A ball", "A fish", "A stone"],
+            options: ["A fish", "A ball", "A cold", "A stone"],
             answer: "A cold"
         },
         {
             question: "What has one eye but cannot see?",
-            options: ["A needle", "A camera", "A potato", "A storm"],
+            options: ["A storm", "A camera", "A potato", "A needle"],
             answer: "A needle"
         },
         {
@@ -72,12 +72,12 @@ const questions = {
         },
         {
             question: "What goes up but never comes down?",
-            options: ["Your age", "Smoke", "A kite", "A balloon"],
+            options: ["Smoke", "Your age", "A kite", "A balloon"],
             answer: "Your age"
         },
         {
             question: "What has to be broken before you can use it?",
-            options: ["An egg", "A pencil", "A cup", "A phone"],
+            options: ["A cup", "A pencil", "An egg", "A phone"],
             answer: "An egg"
         },
         {
@@ -96,12 +96,12 @@ const questions = {
 
         {
             question: "I have cities but no houses, forests but no trees, and rivers but no water. What am I?",
-            options: ["A map", "A dream", "A book", "A painting"],
+            options: ["A painting", "A dream", "A book", "A map"],
             answer: "A map"
         },
         {
             question: "I am always in front of you, but you can never see me. What am I?",
-            options: ["The future", "Your shadow", "The wind", "A mirror"],
+            options: ["Your shadow", "The future", "The wind", "A mirror"],
             answer: "The future"
         },
         {
@@ -111,7 +111,7 @@ const questions = {
         },
         {
             question: "I can be cracked, made, told, and played. What am I?",
-            options: ["A joke", "A song", "A code", "A game"],
+            options: ["A code", "A song", "A joke", "A game"],
             answer: "A joke"
         },
         {
@@ -121,22 +121,22 @@ const questions = {
         },
         {
             question: "I am full of holes, but I can still hold water. What am I?",
-            options: ["A sponge", "A bucket", "A net", "A bottle"],
+            options: ["A bottle", "A bucket", "A net", "A sponge"],
             answer: "A sponge"
         },
         {
             question: "I get smaller every time I take a bath. What am I?",
-            options: ["Soap", "Ice", "A sponge", "A towel"],
+            options: ["A towel", "Ice", "A sponge", "Soap"],
             answer: "Soap"
         },
         {
             question: "I have a head and a tail, but no body. What am I?",
-            options: ["A coin", "A snake", "A fish", "A comet"],
+            options: ["A fish", "A snake", "A coin", "A comet"],
             answer: "A coin"
         },
         {
             question: "I can fill a room, but I take up no space. What am I?",
-            options: ["Light", "Smoke", "Air", "Music"],
+            options: ["Air", "Smoke", "Light", "Music"],
             answer: "Light"
         },
         {
@@ -146,12 +146,12 @@ const questions = {
         },
         {
             question: "I am easy to lift, but hard to throw. What am I?",
-            options: ["A feather", "A stone", "A chair", "A ball"],
+            options: ["A chair", "A stone", "A feather", "A ball"],
             answer: "A feather"
         },
         {
             question: "I am not alive, but I grow. I do not have lungs, but I need air. What am I?",
-            options: ["Fire", "A plant", "A cloud", "A shadow"],
+            options: ["A shadow", "A plant", "A cloud", "Fire"],
             answer: "Fire"
         },
         {
@@ -161,7 +161,7 @@ const questions = {
         },
         {
             question: "I am light as a feather, but even the strongest person cannot hold me for long. What am I?",
-            options: ["Breath", "Smoke", "Air", "A thought"],
+            options: ["Air", "Smoke", "Breath", "A thought"],
             answer: "Breath"
         },
         {
@@ -175,18 +175,18 @@ const questions = {
     hard: [
         {
             question: "The more you take, the more you leave behind. What are they?",
-            options: ["Footsteps", "Memories", "Coins", "Secrets"],
+            options: ["Secrets", "Memories", "Coins", "Footsteps"],
             answer: "Footsteps"
         },
 
         {
             question: "The more of me you take away, the bigger I become. What am I?",
-            options: ["A hole", "A shadow", "A mountain", "A secret"],
+            options: ["A shadow", "A hole", "A mountain", "A secret"],
             answer: "A hole"
         },
         {
             question: "The more you use me, the sharper I become. What am I?",
-            options: ["Your mind", "A pencil", "A knife", "A key"],
+            options: ["A knife", "A pencil", "Your mind", "A key"],
             answer: "Your mind"
         },
         {
@@ -196,7 +196,7 @@ const questions = {
         },
         {
             question: "The more you feed me, the bigger I grow. What am I?",
-            options: ["Fire", "A shadow", "A river", "A cloud"],
+            options: ["A river", "A shadow", "Fire", "A cloud"],
             answer: "Fire"
         },
         {
@@ -211,12 +211,12 @@ const questions = {
         },
         {
             question: "The more you spend, the less you have. What am I?",
-            options: ["Money", "Time", "Energy", "Patience"],
+            options: ["Patience", "Time", "Energy", "Money"],
             answer: "Money"
         },
         {
             question: "The more you wait for me, the slower I feel. What am I?",
-            options: ["Time", "A train", "A message", "A clock"],
+            options: ["A message", "A train", "Time", "A clock"],
             answer: "Time"
         },
         {
@@ -226,7 +226,7 @@ const questions = {
         },
         {
             question: "The more you have of me, the less you can see. What am I?",
-            options: ["Fog", "Light", "Water", "Glass"],
+            options: ["Light", "Fog", "Water", "Glass"],
             answer: "Fog"
         },
         {
@@ -236,12 +236,12 @@ const questions = {
         },
         {
             question: "The more you stretch me, the thinner I get. What am I?",
-            options: ["Rubber", "String", "Dough", "A shadow"],
+            options: ["Dough", "String", "Rubber", "A shadow"],
             answer: "Rubber"
         },
         {
             question: "The more you turn me, the more I reveal. What am I?",
-            options: ["A page", "A wheel", "A key", "A coin"],
+            options: ["A coin", "A wheel", "A key", "A page"],
             answer: "A page"
         },
         {
@@ -251,7 +251,7 @@ const questions = {
         },
         {
             question: "The more you walk on me, the more worn I become. What am I?",
-            options: ["A path", "A shoe", "A carpet", "A road"],
+            options: ["A shoe", "A path", "A carpet", "A road"],
             answer: "A path"
         }
     ],
