@@ -289,54 +289,54 @@ const questions = {
             answer: "Fire"
         },
         {
-            question: "I am bright but not a star. I am hot but not the sun. What am I?",
-            options: ["Fire", "A bulb", "Gold", "A torch"],
-            answer: "Fire"
+            question: "I know every move and thought, with you from birth to death. What am I?",
+            options: ["Reflection", "Parent", "Dairy", "Friend"],
+            answer: "Reflection"
         },
         {
-            question: "I can cook your meal or burn your home. I am useful, but never fully tame. What am I?",
-            options: ["Fire", "Water", "Electricity", "Smoke"],
-            answer: "Fire"
+            question: "I can fill a room or one heart, cannot be shared. What am I?",
+            options: ["Silene", "Air", "Loneliness", "Hope"],
+            answer: "Loneliness"
         },
         {
-            question: "I eat wood, paper, and cloth, but I have no teeth. What am I?",
-            options: ["Fire", "A termite", "Rust", "Water"],
-            answer: "Fire"
+            question: "What you can’t have for breakfast and lunch. What am I?",
+            options: ["Dinner", "Desert", "Ice cream", "Nothing"],
+            answer: "Dinner"
         },
         {
-            question: "I leave ashes behind wherever I feast. What am I?",
-            options: ["Fire", "Wind", "Rain", "Dust"],
-            answer: "Fire"
+            question: "Son of water, dies if water touches it. What am I?",
+            options: ["Seed", "Salt", "Sand", "Dust"],
+            answer: "Salt"
         },
         {
-            question: "I can be small as a match or wild as a forest. What am I?",
-            options: ["Fire", "A tree", "A shadow", "A river"],
-            answer: "Fire"
+            question: "I cannot be bought, can be stolen with a glance, worthless to one, priceless to two. What am I?",
+            options: ["A Diamond", "Happiness", "Love", "Hope"],
+            answer: "Love"
         },
         {
-            question: "I glow, I crackle, and I vanish when starved. What am I?",
-            options: ["Fire", "A radio", "Ice", "A bell"],
-            answer: "Fire"
+            question: "I am a nightmare to some, savior to others, i am known to have cold hands. What am I?",
+            options: ["Revenge", "Dream", "Lie", "Death"],
+            answer: "Death"
         },
         {
-            question: "I am dangerous when free, helpful when controlled, and gone when drowned. What am I?",
-            options: ["Fire", "A bird", "A secret", "A machine"],
-            answer: "Fire"
+            question: "I am strong as rock, but destroyed by a word. What am I?",
+            options: ["Silence", "Promise", "Secret", "Lie"],
+            answer: "Silence"
         },
         {
-            question: "I wear orange and yellow, but I am not a flower. What am I?",
-            options: ["Fire", "A sunset", "A tiger", "A flag"],
-            answer: "Fire"
+            question: "Poor have it, rich need it, eating it kills you. What am I?",
+            options: ["Poverty", "Nothing", "Poison", "Insects"],
+            answer: "Nothing"
         },
         {
-            question: "I can warm your hands, but I am not alive. I can move and flicker, but I have no body. What am I?",
-            options: ["Fire", "A shadow", "A ghost", "A candle"],
-            answer: "Fire"
+            question: "I am strong enough to smash ships, but fear the sun. What am I?",
+            options: ["Rock", "Water", "Ice", "Human"],
+            answer: "Ice"
         },
         {
-            question: "I begin with a tiny spark, but I can become a giant. What am I?",
-            options: ["Fire", "A seed", "A mountain", "A wave"],
-            answer: "Fire"
+            question: "I am nowhere and everywhere except where something exists. What am I?",
+            options: ["Light", "Darkness", "Air", "Nothing"],
+            answer: "Nothing"
         }
 
     ]
